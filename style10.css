@@ -1,0 +1,92 @@
+.heading{
+    height: 70px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    background-color: rgb(30, 30, 59);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: aquamarine;
+    font-size: 80px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 400;
+    gap: 100px;
+}
+.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    gap: 100px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#show_result{
+    display: flex;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    gap: 100px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 10px;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+}
+.box{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    /* background-color:rgb(83, 79, 79); */
+    background-color: black;
+    cursor: pointer;
+}
+#rock{
+    height: 200px;
+    width: 200px;
+    background-image: url("images/stone.png");
+    background-size:cover;
+    border-radius: 50%;
+}
+#paper{
+    height: 200px;
+    width: 200px;
+    background-image: url("images/paper.png");
+    background-size:cover;
+    border-radius: 50%;
+}
+#scissor{
+    height: 200px;
+    width: 200px;
+    background-image: url("images/sesor.png");
+    background-size:cover;
+    border-radius: 50%;
+}
